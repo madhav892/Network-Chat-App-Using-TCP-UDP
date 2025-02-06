@@ -116,7 +116,7 @@ export default function Component() {
                 <div className={`flex items-center border-2 py-2 px-3 rounded-2xl ${darkMode ? 'border-gray-600' : 'border-gray-300'}`}>
                   <User className={`h-5 w-5 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`} />
                   <input
-                    className={`pl-2 outline-none border-none w-full ${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-700'}`}
+                    className={`pl-2 outline-none border-none w-full ${darkMode ? 'bg-gray-700 text-white' : 'bg-white text-gray-700'}`}
                     type="text"
                     placeholder="Username"
                     value={username}
