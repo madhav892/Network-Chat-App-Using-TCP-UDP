@@ -100,7 +100,7 @@ export default function Component() {
   };
 
   return (
-    <div className={`flex h-screen ${darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-blue-500 to-purple-600'}`}>
+    <div className={`flex h-screen ${darkMode ? 'bg-gray-900' : 'bg-gradient-to-br from-blue-600 to-purple-600'}`}>
       <Toaster />
       {!registered ? (
         <div className={`w-full max-w-md m-auto ${darkMode ? 'bg-gray-800' : 'bg-white'} rounded-lg shadow-2xl py-10 px-16`}>
